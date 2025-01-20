@@ -352,21 +352,23 @@
   padding: 60px 80px;
 }
 
+.footer__cover {
+  width: 100%;
+}
+
 .footer__columns {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  margin-right: auto;
 }
 
 .footer__column_content_hours {
   font-size: small;
-  position: absolute;
-  right: 250px;
-  margin-left: auto;
+  margin-left: 80px;
 }
 
 .footer__column_content_social {
   font-size: small;
-  margin-left: 80px;
 }
 .footer__logo {
   width: 58px;
