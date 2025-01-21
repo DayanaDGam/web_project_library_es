@@ -358,17 +358,19 @@
 
 .footer__columns {
   display: flex;
-  justify-content: flex-end;
-  margin-right: auto;
+  justify-content: space-between;
 }
 
 .footer__column_content_hours {
   font-size: small;
-  margin-left: 80px;
+  position: absolute;
+  right: 250px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
   font-size: small;
+  margin-left: 80px;
 }
 .footer__logo {
   width: 58px;
